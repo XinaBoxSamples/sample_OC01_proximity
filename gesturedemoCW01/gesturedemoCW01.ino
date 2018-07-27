@@ -1,13 +1,9 @@
-#include <SparkFun_APDS9960.h>
-
-#include <xOC01.h>
-
-#include <xCore.h>
-#include <xOD01.h>
+#include <xCore.h> //find @ https://github.com/xinabox/xCore
+#include <xOD01.h> //find @ https://github.com/xinabox/xOD01
+#include <xOC01.h> //find @ https://github.com/xinabox/xOC01
+#include <SparkFun_APDS9960.h> //find @ https://github.com/sparkfun/SparkFun_APDS-9960_Sensor_Arduino_Library
 #include <ESP8266WiFi.h>
 #include "TIMER_CTRL.h"
-#include <SparkFun_APDS9960.h> 
-#include <xOC01.h>
 
 xOC01 OC01;
 
